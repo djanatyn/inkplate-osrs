@@ -1,0 +1,21 @@
+// Copy this file to config.h and fill in your credentials
+// config.h is gitignored and won't be committed
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi credentials
+const char* WIFI_SSID = "your-wifi-ssid";
+const char* WIFI_PASSWORD = "your-wifi-password";
+
+// Server configuration
+const char* SERVER_HOST = "192.168.1.210";
+const int SERVER_PORT = 80;
+
+// Timezone offset from UTC in seconds
+// EST (UTC-5): -5 * 3600 = -18000
+// EDT (UTC-4): -4 * 3600 = -14400
+// PST (UTC-8): -8 * 3600 = -28800
+const long TIMEZONE_OFFSET = -18000;  // Default: EST (UTC-5)
+
+#endif
