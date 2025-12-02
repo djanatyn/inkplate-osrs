@@ -608,8 +608,7 @@ checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
 [[package]]
 name = "osrs-highscores"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b636b3c755138f3bc42efb73ea559d645f21cb1135dee9eb3101a0812da8801"
+source = "git+https://github.com/djanatyn/osrs-highscores-search-rust?branch=jon%2Fadd-sailing-support#44c612c3ae1b4731af012345fda360d6c583c711"
 dependencies = [
  "serde",
  "ureq",

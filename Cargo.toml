@@ -6,7 +6,7 @@ edition = "2024"
 [dependencies]
 axum = { version = "0.8.7", features = ["tracing", "default"]}
 chrono = { version = "0.4", features = ["serde"] }
-osrs-highscores = "0.2.0"
+osrs-highscores = { git = "https://github.com/djanatyn/osrs-highscores-search-rust", branch = "jon/add-sailing-support" }
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = { version = "1.0.145", features = ["preserve_order"] }
 tokio = { version = "1.48.0", features = ["full"] }
